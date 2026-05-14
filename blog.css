@@ -34,10 +34,20 @@ body {
     font-size: 35px;
     margin-bottom: 1.5rem;
 }
-.btn:hover{
+.btn:hover,
+.btn:active,
+.btn:focus {
     background-color: #ff0000;
     color: #ffffff;
+    outline: none;
+}
 
+/* Mobile touch support */
+@media (hover: none) and (pointer: coarse) {
+    .btn:active {
+        background-color: #ff0000;
+        color: #ffffff;
+    }
 }
 #contact{
     background-color: #052c65;
