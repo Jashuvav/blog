@@ -1,0 +1,61 @@
+* { 
+    box-sizing: border-box; 
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg,#031028 0%, #04182b 100%);
+    color: #e6f0f8;
+    -webkit-font-smoothing:antialiased;
+}
+
+.navbar{
+    background-color:  rgba(31, 164, 102, 0.897);
+}
+.navbar .navbar-brand {
+    color: #0c0c0c;
+    font-weight: 700;
+    font-size: 1.5rem;
+}   
+.blog-header {
+    background-color: #052c65;
+}
+.card{
+    background-color: #052c65;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+    color: #e6f0f8;
+}
+.display-4 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 75px;
+}
+.lead {
+    color: #f0f0f0;
+    font-size: 35px;
+    margin-bottom: 1.5rem;
+}
+.btn:hover{
+    background-color: #ff0000;
+    color: #ffffff;
+
+}
+#contact{
+    background-color: #052c65;
+    padding: 2rem;
+    border-radius: 12px;
+    color: #fdfbfb;
+}
+.card .card-img-top { 
+        height: 180px; 
+}
+.blog-header { 
+    padding: 2rem 0; 
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .card .card-img-top { height: 200px; }
+}
+
+.navbar .nav-link:hover { 
+    color: var(--blue-700);
+ }
